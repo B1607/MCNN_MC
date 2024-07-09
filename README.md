@@ -1,5 +1,4 @@
-# Title
-MCNN_MC: Computational Prediction of Mitochondrial Carriers and Investigation of Bongkrekic Acid Toxicity using Protein Language Models and Convolutional Neural Networks
+# MCNN_MC: Computational Prediction of Mitochondrial Carriers and Investigation of Bongkrekic Acid Toxicity using Protein Language Models and Convolutional Neural Networks
 Muhammad Shahid Malik, Yan-Yun Chang, Yu-Chen Liu, Van The Le, Yu-Yen Ou
 
 ## Abstract <a name="abstract"></a>
@@ -7,7 +6,7 @@ Mitochondrial carriers (MCs) are essential proteins that transport metabolites a
 
 <br>
 
-![workflow]([https://github.com/B1607/MCNN_MC/blob/faca486b7bc192986690f3ca8a7cf9c4c6d4476b/figure/flowchart.png])
+![workflow](https://github.com/B1607/MCNN_MC/blob/faca486b7bc192986690f3ca8a7cf9c4c6d4476b/figure/flowchart.png)
 ## Dataset <a name="Dataset"></a>
 
 | Dataset                             | Original Protein Sequence | Remove Similarity < 30% | Training Data            | Validation Data       |
