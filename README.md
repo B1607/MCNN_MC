@@ -26,13 +26,13 @@ Example usage:
 ```bash
 python get_ProtTrans.py -in "Your FASTA file folder" -out "The destination folder of your output"
 python get_tape.py -in "Your FASTA file folder" -out "The destination folder of your output"
-python get_esm.py esm2_t33_650M_UR50D "Your FASTA file folder" "The destination folder of your output" --repr_layers 33 --include per_tok
+python get_esm.py "Pretrained model of ESM" "Your FASTA file folder" "The destination folder of your output" --repr_layers 33 --include per_tok
 ```
 Alternative example:
 ```bash
 python get_ProtTrans -in ./Fasta/Train -out ./Train
 python get_tape -in ./Fasta/Train -out ./Train
-python get_esm.py ./Fasta/Train ./Train --repr_layers 33 --include per_tok
+python get_esm.py esm2_t33_650M_UR50D ./Fasta/Train ./Train --repr_layers 33 --include per_tok
 ```
 
 ### Step 2: Generate Dataset Using Data Features
