@@ -37,7 +37,7 @@ parser.add_argument("-vm", "--validation_mode", type=str, default="cross",
 parser.add_argument("-d", "--data_type", type=str, default="ProtTrans", 
                     help='The type of data. Options are "ProtTrans", "tape", "esm2".')
 parser.add_argument("-n_feat", "--num_feature", type=int, default=1024, 
-                    help="The number of data feature dimensions. 1024 for ProtTrans, 768 for tape, 1028 for esm2.")
+                    help="The number of data feature dimensions. 1024 for ProtTrans, 768 for tape, 1280 for esm2.")
 
 args = parser.parse_args()
 MAXSEQ = args.max_seq
