@@ -170,7 +170,7 @@ class DeepScan(Model):
         
 "----------------------------------------------------------------------------------------------------"
 
-x_train,y_train,x_test,y_test= load_data.MCNN_data_load(MAXSEQ,DATA_TYPE) #Load dataset from import_test.py
+x_train,y_train,x_test,y_test= load_data.MCNN_data_load() #Load dataset from loading_data.py
 
 print("The shape of training dataset :",x_train.shape)
 print("The data type of training dataset :",x_train.dtype)
